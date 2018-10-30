@@ -2,7 +2,7 @@
   "name": "shri2018-2-performance",
   "version": "1.0.0",
   "description": "Оптимизируйте страницу, выложите на GitHub Pages. Зайдите на https://shri-performance.ru и отправьте урл своей страницы.",
-  "main": "public/js/banner.js",
+  "main": "app.js",
   "scripts": {
     "test": "./node_modules/.bin/hermione gui hermione/*.js",
     "hermione": "./node_modules/.bin/hermione hermione/*.js"
