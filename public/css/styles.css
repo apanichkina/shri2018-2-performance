@@ -542,8 +542,11 @@ textarea {
   from {
     transform: scale(0.2);
   }
-to-transform: scale(1);
+  to {
+       transform: scale(1);
+     }
 }
+
 * {
   box-sizing: border-box;
 }
@@ -675,9 +678,6 @@ html {
 .weather__item_cloud-drizzle {
   background: url("../../assets/cloud-drizzle.png") 100% 70%/26px no-repeat;
 }
-.stats {
-  opacity: 0;
-}
 .panel__icon {
   width: 24px;
   height: 24px;
@@ -696,4 +696,7 @@ html {
 }
 .panel__icon_clock {
   background: url("../../assets/panel__icon_clock.svg") center center/contain no-repeat;
+}
+.main__greeting {
+  font-family: "PT Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
